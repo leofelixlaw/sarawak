@@ -16780,6 +16780,8 @@ svg {
 
 #back-to-top {
     color: #fff;
+    background: #2196F3 !important;
+    padding: 10px;
     position: fixed;
     bottom: 80px;
     right: 20px;
@@ -19404,13 +19406,13 @@ footer .border-top {
     text-align: center;
     font-size: 16px;
     margin-bottom: 0;
-    color: #a1a0b9;
+    color: #9d9d9d;
 }
 
 .section-title h1,
 .section-title h2 {
     margin-bottom: .5rem;
-    color: #4f4b8b;
+    color: #2c2c2c;
     font-size: 34px;
     font-weight: 700;
     z-index: 1;
@@ -21113,6 +21115,7 @@ iframe {
 .patter-image {
     background-repeat: repeat !important;
     background-size: auto !important;
+    background: #e7e7e7;
 }
 
 .sub-newsletter.d-sm-flex i {
@@ -21398,7 +21401,7 @@ label.error {
     display: block;
     z-index: 1;
     top: 0;
-    background: rgba(238, 235, 250, 0.6);
+    background: rgb(248 248 248 / 60%);
 }
 
 .bg-background-pattern .content-text {
@@ -27787,7 +27790,7 @@ a.text-success:hover {
 }
 
 .text-info {
-    color: #23bcb7 !important;
+    color: #FF5722 !important;
 }
 
 a.text-info:focus,
@@ -27848,7 +27851,7 @@ a.text-light:hover {
 }
 
 .bg-info-transparent {
-    background-color: rgba(35, 188, 183, 0.1) !important;
+    background-color: rgb(255 87 34 / 8%) !important;
 }
 
 .bg-warning-transparent {
@@ -29599,7 +29602,7 @@ button.bg-lime:hover {
 }
 
 .border-info {
-    border-color: #23bcb7 !important;
+    border-color: #FF5722 !important;
 }
 
 .border-warning {
@@ -31907,5 +31910,17 @@ button.bg-lime:hover {
 .z-index-19 {
     z-index: 19;
 }
-
-/*# sourceMappingURL=style.css.map */
+.partner .card{
+    height: 120px;
+}
+.partner .card .card-body{
+    padding: 10px;
+    align-self: center;
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter-status h5{
+    font-size: 14px;
+}

@@ -41,15 +41,15 @@ animateOut: 'fadeOut',
 		lazyLoad: true,
 		responsive: {
 			0: {
-				items: 1,
-				nav: true
-			},
-			767: {
 				items: 2,
 				nav: true
 			},
+			767: {
+				items: 6,
+				nav: true
+			},
 			1300: {
-				items: 4,
+				items: 6,
 				nav: true
 			}
 		}
