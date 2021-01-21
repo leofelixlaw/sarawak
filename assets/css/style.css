@@ -232,7 +232,9 @@ hr {
     position: relative;
     width: 100%;
 }
-
+.video-bg.cover-image {
+    min-height: 540px;
+}
 .img-thumbnail {
     padding: .25rem;
     background-color: #fff;
@@ -8282,6 +8284,12 @@ ul li ul:hover {
 
     .place-tour p {
         font-size: 12px !important;
+    }
+    .video-bg.cover-image {
+        min-height: 300px;
+    }
+    .smllogo img{
+       width: 140px; 
     }
 }
 
