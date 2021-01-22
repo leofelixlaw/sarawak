@@ -14112,6 +14112,7 @@ video {
         padding: 14px 0px;
         line-height: 0;
         opacity: 0.7;
+        display: none;
     }
 
     .callusbtn .fa {
@@ -14128,7 +14129,7 @@ video {
         position: absolute;
         left: 0;
         top: 0;
-        z-index: 102;
+        z-index: 1001;
         -webkit-transition: all 0.4s ease-in-out;
         -moz-transition: all 0.4s ease-in-out;
         -o-transition: all 0.4s ease-in-out;
@@ -14152,6 +14153,7 @@ video {
         display: block;
         content: '';
         transition: all 500ms ease-in-out;
+        z-index: 1001;
     }
 
     .animated-arrow span:before,
@@ -14181,7 +14183,7 @@ video {
     }
 
     .active .animated-arrow span {
-        background-color: transparent;
+        background-color: #a9a9a9;
     }
 
     .active .animated-arrow span:after {
@@ -14246,7 +14248,6 @@ video {
     }
 
     .active .horizontalMenucontainer {
-        margin-left: 240px;
         -webkit-transition: all 0.25s ease-in-out;
         -moz-transition: all 0.25s ease-in-out;
         -o-transition: all 0.25s ease-in-out;
@@ -15753,10 +15754,6 @@ hr.divider:after {
 
 .popover-static-demo .popover .arrow {
     margin-left: calc(.25rem + 122px);
-}
-
-.dropdown {
-    display: block;
 }
 
 .dropdown-menu.drop-menu-width {
